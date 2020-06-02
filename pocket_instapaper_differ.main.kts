@@ -1,5 +1,6 @@
-#!/usr/bin/env kscript
-//DEPS com.squareup.okio:okio:2.1.0
+#!/usr/bin/env kotlin
+
+@file:DependsOn("com.squareup.okio:okio:2.1.0")
 
 import okio.buffer
 import okio.source
